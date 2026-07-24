@@ -27,7 +27,6 @@ Data Preprocessing is the process of making data suitable for use while training
 For achieving better results from the applied model in Machine Learning projects the format of the data has to be in a proper manner. Some specified Machine Learning model needs information in a specified format, for example, Random Forest algorithm does not support null values, therefore to execute random forest algorithm null values have to be managed from the original raw data set.
 Another aspect is that the data set should be formatted in such a way that more than one Machine Learning and Deep Learning algorithm are executed in one data set, and best out of them is chosen.
 
-
 ## ALGORITHM:
 STEP 1:Importing the libraries<BR>
 STEP 2:Importing the dataset<BR>
@@ -78,12 +77,36 @@ print("Lenght of X_test ",len(X_test))
 
 ```
 
-
 ## OUTPUT:
+### Dataset:
+<img width="1287" height="437" alt="image" src="https://github.com/user-attachments/assets/58a01165-41e5-4f37-9753-351a8baee0dc" />
 
+### Displaying first five rows:
+<img width="1258" height="222" alt="image" src="https://github.com/user-attachments/assets/95a05c20-623d-451a-ad60-070138fefeb8" />
 
+### Separating input features and output variables:
+<img width="1562" height="375" alt="image" src="https://github.com/user-attachments/assets/7f769824-e463-4f2d-a75f-ecd84f9ec74d" />
+
+### Checking null values:
+<img width="1442" height="427" alt="image" src="https://github.com/user-attachments/assets/7e5888f4-2636-4f29-bf77-cab52e06f61d" />
+
+### Checking duplicated values:
+<img width="1442" height="367" alt="image" src="https://github.com/user-attachments/assets/0c8ebc99-cc12-43db-856a-9d64f0108332" />
+
+### Displaying Statistical Information:
+<img width="1427" height="468" alt="image" src="https://github.com/user-attachments/assets/9b902e00-fb1f-4c41-9a72-a9f064a6c57b" />
+
+### Removing Categorical Columns:
+<img width="1447" height="392" alt="image" src="https://github.com/user-attachments/assets/3153c821-eac6-496b-a31b-dd901951777a" />
+
+### Normalizing the Dataset Using Min-Max Scaler:
+<img width="1535" height="672" alt="image" src="https://github.com/user-attachments/assets/ce1c1308-5e18-4d51-ac8f-4549eb06a101" />
+
+### Displaying Training Data and Testing Data:
+<img width="1428" height="560" alt="image" src="https://github.com/user-attachments/assets/fb7536a2-4607-402c-8910-fea361aef63b" />
+
+### Displaying the Length of Testing Data:
+<img width="1443" height="157" alt="image" src="https://github.com/user-attachments/assets/e4b5f714-e699-43bf-9188-f2e17ae30855" />
 
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
-
-
